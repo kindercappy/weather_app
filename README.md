@@ -1,0 +1,1 @@
+This is a Weather App built with <3 by KinderPreet Singh for the freeCodeCamp project. Feel free to use it as you may, but do give credit to the developer. Thank you! :)
