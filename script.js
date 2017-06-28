@@ -59,14 +59,14 @@ function loadData(){
 			              opacity: 1
 			            },200);
 						name.text(qName);
-						tempC.html(qTempC + "&deg;C");
-						tempF.html(qTempF + "&deg;F");
-						country.text(qCountry);
-						region.text(qRegion);
-						textWeather.text(qText);
+						tempC.html(qTempC + "&deg;C").addClass('borderBottom');
+						tempF.html(qTempF + "&deg;F").addClass('borderBottom');
+						country.text(qCountry).addClass('borderBottom');
+						region.text(qRegion).addClass('borderBottom');
+						textWeather.text(qText).addClass('borderBottom');
 						icon.attr("src", 'http:' + qIconUrl);
-						fullAddress.text(qFullAddress);
-			        });
+						fullAddress.text(qFullAddress).addClass('borderBottom');
+			        }).addClass('border');
 				}
 				
 			}
@@ -81,6 +81,7 @@ function loadData(){
 		}
 	});
 }
+
 
 $(document).ready(function(){
 	loadData();
